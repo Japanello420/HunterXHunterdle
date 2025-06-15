@@ -31,13 +31,25 @@ Aplikacja uruchomi się w przeglądarce (domyślnie pod adresem http://127.0.0.1
 ## 🧩 Struktura projektu
 
 📁 data/
-┗ 📜 characters.json # lokalna baza postaci HxH
-📁 src/
-┣ 📂 game/ # logika zgadywania
-┣ 📂 ui/ # manipulacja DOM, input, feedback
-┣ 📂 styles/ # pliki SCSS (zmienne, layout, komponenty)
-┣ 📜 main.js # punkt wejściowy aplikacji
-┗ 📜 index.html
+    - 📜 hxhdb.json # lokalna baza postaci HxH
+📁 js/
+    - 📜 compare.js # logika porównywania cech postaci docelowej ze zgadywanymi
+    - 📜 main.js # logika sterująca grą
+    - 📜 ui.js # operacje na DOM oraz interfejs
+    - 📜 utils.js # narzędzia pomocnicze (pobieranie danych, losowanie postaci)
+📁 scss/
+    - 📜 main.scss # zawiera importy pozostałych plików .scss
+    - 📜 _animations.scss # animacje
+    - 📜 _base.scss # style dla * oraz body
+    - 📜 _components.scss # konkretne elementy interfejsu
+    - 📜 _layout.scss # layouty globalne, flex, grid
+    - 📜 _mixins.scss # logika sterująca grą
+    - 📜 _variables.scss # kolory, czcionki, rozmiary
+    - 📜 main.css # skompilowany plik css powstaje ze wszystkich .scss
+    - 📜 main.css.map # łączy wygenerowany css z oryginalnymi źródłami scss
+📁 pictures/    # zdjęcia postaci oraz bg
+📜 index.html   # zapewnia strukturę, łaczy .js oraz .css w aplikacje
+📜 README.md    # plik z opisem projektu
 
 ## 📘 Jak grać
 

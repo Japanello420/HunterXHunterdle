@@ -18,8 +18,3 @@ export const getRandomCharacter = (characters) => {
   const index = Math.floor(Math.random() * characters.length);
   return characters[index];
 };
-
-export const formatList = (list) => {
-  if (!Array.isArray(list)) return "";
-  return list.join(", ");
-};
