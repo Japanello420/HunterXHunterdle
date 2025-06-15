@@ -1,0 +1,49 @@
+// Fade-in animacja dla nowych elementów
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-out;
+}
+
+// Podświetlenie aktywnego zgadnięcia
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+}
+
+.pulse {
+  animation: pulse 0.3s ease-in-out;
+}
+
+// Transition dla elementów interaktywnych
+input,
+button,
+.message,
+.guess-row {
+  @include transition(background-color, transform, opacity);
+}
+
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

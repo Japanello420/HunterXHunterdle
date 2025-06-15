@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-family;
+  font-size: $font-size-base;
+  background-color: $color-bg;
+  color: $color-text;
+  line-height: 1.5;
+  padding: $spacing;
+}
+h1 {
+  text-align: center;
+}

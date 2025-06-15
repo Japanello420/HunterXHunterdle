@@ -1,0 +1,203 @@
+// Formularz
+form {
+  position: relative;
+  display: flex;
+  gap: 0.5rem;
+  margin: $spacing 0;
+
+  input[type="text"] {
+    flex: 1;
+    padding: 0.75rem;
+    border: 2px solid $color-border;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    @include transition(border-color, box-shadow);
+
+    &:focus {
+      border-color: $color-primary;
+      box-shadow: 0 0 0 2px rgba($color-primary, 0.2);
+      outline: none;
+    }
+  }
+
+  button[type="submit"] {
+    padding: 0.75rem 1.25rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: $color-primary;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    @include transition(background-color, transform);
+
+    &:hover {
+      background-color: darken($color-primary, 5%);
+      transform: scale(1.03);
+    }
+
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+  }
+}
+
+// Przycisk restartu
+#restart-btn {
+  margin-top: 1rem;
+  background-color: $color-primary;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  @include transition(background-color);
+
+  &:hover {
+    background-color: darken($color-primary, 8%);
+  }
+}
+
+// Wiadomości
+.message {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+
+  &.error {
+    color: $color-error;
+  }
+
+  &.success {
+    color: $color-success;
+  }
+
+  &.info {
+    color: $color-primary;
+  }
+}
+
+// Autocomplete lista
+.autocomplete {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: white;
+  border: 1px solid $color-border;
+  border-radius: 0 0 0.5rem 0.5rem;
+  max-height: 250px;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 0.25rem 0;
+}
+
+.autocomplete.visible {
+  display: block;
+}
+
+.autocomplete-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-size: 18px;
+
+  &:hover {
+    background-color: #f0f0f0;
+  }
+
+  img.avatar {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+}
+
+// Wiersze zgadywań (karta)
+
+.tag {
+  display: inline-block;
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: bold;
+  color: white;
+  white-space: normal;
+  word-break: break-word;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.tag-success {
+  background-color: $color-success;
+}
+
+.tag-warning {
+  background-color: $color-warning;
+}
+
+.tag-error {
+  background-color: $color-error;
+}
+
+.reveal-card {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  padding: 1rem 1.5rem;
+  background-color: white;
+  border: 2px solid $color-border;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+
+  &.visible {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+    animation: fadeSlideUp 0.35s ease-out;
+  }
+
+  .reveal-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .reveal-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #222;
+    background-color: white;
+  }
+
+  .reveal-name {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #111;
+  }
+}
+
+.reveal-card.success {
+  border-color: $color-success;
+  background-color: rgba($color-success, 0.15);
+}
+
+.reveal-card.error {
+  border-color: $color-error;
+  background-color: rgba($color-error, 0.15);
+}

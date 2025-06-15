@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hunter x Hunterdle</title>
+    <link rel="stylesheet" href="scss/main.css" />
+  </head>
+  <body>
+    <main class="game-container">
+      <h1>🎯 Guess today's Hunter x Hunter character!</h1>
+
+      <form id="guess-form" autocomplete="off">
+        <input
+          type="text"
+          id="guess-input"
+          placeholder="Character name..."
+          required
+        />
+        <ul id="autocomplete-list" class="autocomplete"></ul>
+        <button type="submit" aria-label="Submit guess">▶</button>
+      </form>
+
+      <section id="game-status" hidden>
+        <p>
+          Attempt: <span id="attempt-counter">0</span> /
+          <span id="max-attempts">6</span>
+        </p>
+        <p id="message" class="message"></p>
+        <div id="reveal-character" class="reveal-card" hidden>
+          <p class="message reveal-title"></p>
+          <img class="reveal-img" />
+          <p class="reveal-name"></p>
+        </div>
+      </section>
+      <div class="guess-scroll-wrapper">
+        <section id="guesses-list"></section>
+      </div>
+      <button id="restart-btn">Play again</button>
+    </main>
+
+    <script type="module" src="js/main.js" defer></script>
+  </body>
+</html>

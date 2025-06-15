@@ -1,0 +1,738 @@
+[
+  {
+    "name": "Gon Freecss",
+    "gender": "Male",
+    "nenType": ["Enhancement"],
+    "affiliation": ["Hunter Association", "Players"],
+    "firstArc": "Hunter Exam",
+    "picture": "pictures/gon freecss.png"
+  },
+  {
+    "name": "Mito Freecss",
+    "gender": "Female",
+    "nenType": "none",
+    "affiliation": ["Independent"],
+    "firstArc": "Hunter Exam",
+    "picture": "pictures/mito freecss.png"
+  },
+  {
+    "name": "Ging Freecss",
+    "gender": "Male",
+    "nenType": ["Unknown"],
+    "affiliation": ["Hunter Association", "Zodiacs"],
+    "firstArc": "Election",
+    "picture": "pictures/ging freecss.png"
+  },
+  {
+    "name": "Isaac Netero",
+    "gender": "Male",
+    "nenType": ["Enhancement"],
+    "affiliation": ["Hunter Association", "Zodiacs"],
+    "firstArc": "Hunter Exam",
+    "picture": "pictures/isaac netero.png"
+  },
+  {
+    "name": "Pariston Hill",
+    "gender": "Male",
+    "nenType": ["Manipulation"],
+    "affiliation": ["Hunter Association", "Zodiacs"],
+    "firstArc": "Election",
+    "picture": "pictures/pariston hill.png"
+  },
+  {
+    "name": "Cheadle Yorkshire",
+    "gender": "Female",
+    "nenType": ["Manipulation"],
+    "affiliation": ["Hunter Association", "Zodiacs"],
+    "firstArc": "Election",
+    "picture": "pictures/cheadle yorkshire.png"
+  },
+  {
+    "name": "Botobai Gigante",
+    "gender": "Male",
+    "nenType": ["Enhancement"],
+    "affiliation": ["Hunter Association", "Zodiacs"],
+    "firstArc": "Election",
+    "picture": "pictures/botobai gigante.png"
+  },
+  {
+    "name": "Mizaistom Nana",
+    "gender": "Male",
+    "nenType": ["Conjuration"],
+    "affiliation": ["Hunter Association", "Zodiacs"],
+    "firstArc": "Election",
+    "picture": "pictures/mizaistom nana.png"
+  },
+  {
+    "name": "Saccho Kobayakawa",
+    "gender": "Male",
+    "nenType": ["Manipulation"],
+    "affiliation": ["Hunter Association", "Zodiacs"],
+    "firstArc": "Election",
+    "picture": "pictures/saccho kobayakawa.png"
+  },
+  {
+    "name": "Cluck",
+    "gender": "Female",
+    "nenType": ["Manipulation"],
+    "affiliation": ["Hunter Association", "Zodiacs"],
+    "firstArc": "Election",
+    "picture": "pictures/cluck.png"
+  },
+  {
+    "name": "Gel",
+    "gender": "Female",
+    "nenType": "Unknown",
+    "affiliation": ["Hunter Association", "Zodiacs"],
+    "firstArc": "Election",
+    "picture": "pictures/gel.png"
+  },
+  {
+    "name": "Ginta",
+    "gender": "Male",
+    "nenType": "Unknown",
+    "affiliation": ["Hunter Association", "Zodiacs"],
+    "firstArc": "Election",
+    "picture": "pictures/ginta.png"
+  },
+  {
+    "name": "Kanzai",
+    "gender": "Male",
+    "nenType": ["Enhancement"],
+    "affiliation": ["Hunter Association", "Zodiacs"],
+    "firstArc": "Election",
+    "picture": "pictures/kanzai.png"
+  },
+  {
+    "name": "Kurapika",
+    "gender": "Male",
+    "nenType": ["Conjuration", "Specialization"],
+    "affiliation": ["Hunter Association", "Nostrade Family"],
+    "firstArc": "Hunter Exam",
+    "picture": "pictures/kurapika.png"
+  },
+  {
+    "name": "Leorio Paradinight",
+    "gender": "Male",
+    "nenType": ["Emission"],
+    "affiliation": ["Hunter Association"],
+    "firstArc": "Hunter Exam",
+    "picture": "pictures/leorio paradinight.png"
+  },
+  {
+    "name": "Pyon",
+    "gender": "Female",
+    "nenType": ["Unknown"],
+    "affiliation": ["Hunter Association", "Zodiacs"],
+    "firstArc": "Election",
+    "picture": "pictures/pyon.png"
+  },
+  {
+    "name": "Saiyu",
+    "gender": "Male",
+    "nenType": "Unknown",
+    "affiliation": ["Hunter Association", "Zodiacs"],
+    "firstArc": "Election",
+    "picture": "pictures/saiyu.png"
+  },
+  {
+    "name": "Biscuit Krueger",
+    "gender": "Female",
+    "nenType": ["Transmutation"],
+    "affiliation": ["Players", "Hunter Association"],
+    "firstArc": "Greed Island",
+    "picture": "pictures/biscuit krueger.png"
+  },
+  {
+    "name": "Morel Mackernasey",
+    "gender": "Male",
+    "nenType": ["Manipulation"],
+    "affiliation": ["Hunter Association", "Extermination Team"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/morel mackernasey.png"
+  },
+  {
+    "name": "Menchi",
+    "gender": "Female",
+    "nenType": "none",
+    "affiliation": ["Hunter Association", "Examiner"],
+    "firstArc": "Hunter Exam",
+    "picture": "pictures/menchi.png"
+  },
+  {
+    "name": "Baise",
+    "gender": "Female",
+    "nenType": ["Manipulation"],
+    "affiliation": ["Nostrade Family", "Bodyguards"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/baise.png"
+  },
+  {
+    "name": "Buhara",
+    "gender": "Male",
+    "nenType": "none",
+    "affiliation": ["Hunter Association", "Examiner"],
+    "firstArc": "Hunter Exam",
+    "picture": "pictures/buhara.png"
+  },
+  {
+    "name": "Hanzo",
+    "gender": "Male",
+    "nenType": ["Enhancement"],
+    "affiliation": ["Hunter Association"],
+    "firstArc": "Hunter Exam",
+    "picture": "pictures/hanzo.png"
+  },
+  {
+    "name": "Hisoka Morow",
+    "gender": "Male",
+    "nenType": ["Transmutation"],
+    "affiliation": ["Phantom Troupe", "Independent", "Heavens Arena"],
+    "firstArc": "Hunter Exam",
+    "picture": "pictures/hisoka morow.png"
+  },
+  {
+    "name": "Illumi Zoldyck",
+    "gender": "Male",
+    "nenType": ["Manipulation"],
+    "affiliation": ["Zoldyck Family", "Phantom Troupe"],
+    "firstArc": "Hunter Exam",
+    "picture": "pictures/illumi zoldyck.png"
+  },
+  {
+    "name": "Khara",
+    "gender": "Female",
+    "nenType": "none",
+    "affiliation": ["Examiner", "Hunter Association"],
+    "firstArc": "Hunter Exam",
+    "picture": "pictures/khara.png"
+  },
+  {
+    "name": "Kite",
+    "gender": "Male",
+    "nenType": ["Conjuration"],
+    "affiliation": ["Hunter Association"],
+    "firstArc": "Hunter Exam",
+    "picture": "pictures/kite.png"
+  },
+  {
+    "name": "Knov",
+    "gender": "Male",
+    "nenType": ["Conjuration"],
+    "affiliation": ["Hunter Association", "Extermination Team"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/knov.png"
+  },
+  {
+    "name": "Knuckle Bine",
+    "gender": "Male",
+    "nenType": ["Emission"],
+    "affiliation": ["Hunter Association", "Extermination Team"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/knuckle bine.png"
+  },
+  {
+    "name": "Melody",
+    "gender": "Female",
+    "nenType": ["Enhancement"],
+    "affiliation": ["Nostrade Family", "Bodyguards"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/melody.png"
+  },
+  {
+    "name": "Palm Siberia",
+    "gender": "Female",
+    "nenType": ["Specialization"],
+    "affiliation": ["Hunter Association"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/palm siberia.png"
+  },
+  {
+    "name": "Pokkle",
+    "gender": "Male",
+    "nenType": ["Emission"],
+    "affiliation": ["Hunter Association"],
+    "firstArc": "Hunter Exam",
+    "picture": "pictures/pokkle.png"
+  },
+  {
+    "name": "Satotz",
+    "gender": "Male",
+    "nenType": "none",
+    "affiliation": ["Hunter Association", "Examiner"],
+    "firstArc": "Hunter Exam",
+    "picture": "pictures/satotz.png"
+  },
+  {
+    "name": "Wing",
+    "gender": "Male",
+    "nenType": ["Manipulation"],
+    "affiliation": ["Heavens Arena", "Hunter Association"],
+    "firstArc": "Heavens Arena",
+    "picture": "pictures/wing.png"
+  },
+  {
+    "name": "Ponzu",
+    "gender": "Female",
+    "nenType": "none",
+    "affiliation": ["Hunter Exam Candidates"],
+    "firstArc": "Hunter Exam",
+    "picture": "pictures/ponzu.png"
+  },
+  {
+    "name": "Siper",
+    "gender": "Female",
+    "nenType": "none",
+    "affiliation": ["Nostrade Family", "Bodyguards"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/siper.png"
+  },
+  {
+    "name": "Leroute",
+    "gender": "Female",
+    "nenType": "none",
+    "affiliation": ["Hunter Exam Candidates"],
+    "firstArc": "Hunter Exam",
+    "picture": "pictures/leroute.png"
+  },
+  {
+    "name": "Majtani",
+    "gender": "Male",
+    "nenType": "none",
+    "affiliation": ["Hunter Exam Candidates"],
+    "firstArc": "Hunter Exam",
+    "picture": "pictures/majtani.png"
+  },
+  {
+    "name": "Spinner Clow",
+    "gender": "Female",
+    "nenType": "none",
+    "affiliation": ["Nostrade Family", "Bodyguards"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/spinner clow.png"
+  },
+  {
+    "name": "Zeno Zoldyck",
+    "gender": "Male",
+    "nenType": ["Transmutation"],
+    "affiliation": ["Zoldyck Family"],
+    "firstArc": "Zoldyck Family",
+    "picture": "pictures/zeno zoldyck.png"
+  },
+  {
+    "name": "Silva Zoldyck",
+    "gender": "Male",
+    "nenType": ["Transmutation"],
+    "affiliation": ["Zoldyck Family"],
+    "firstArc": "Zoldyck Family",
+    "picture": "pictures/silva zoldyck.png"
+  },
+  {
+    "name": "Kikyo Zoldyck",
+    "gender": "Female",
+    "nenType": "none",
+    "affiliation": ["Zoldyck Family"],
+    "firstArc": "Zoldyck Family",
+    "picture": "pictures/kikyo zoldyck.png"
+  },
+  {
+    "name": "Milluki Zoldyck",
+    "gender": "Male",
+    "nenType": "none",
+    "affiliation": ["Zoldyck Family"],
+    "firstArc": "Zoldyck Family",
+    "picture": "pictures/milluki zoldyck.png"
+  },
+  {
+    "name": "Alluka Zoldyck",
+    "gender": "Female",
+    "nenType": "none",
+    "affiliation": ["Zoldyck Family"],
+    "firstArc": "Election",
+    "picture": "pictures/alluka zoldyck.png"
+  },
+  {
+    "name": "Killua Zoldyck",
+    "gender": "Male",
+    "nenType": ["Transmutation"],
+    "affiliation": ["Zoldyck Family", "Hunter Association", "Players"],
+    "firstArc": "Hunter Exam",
+    "picture": "pictures/killua zoldyck.png"
+  },
+  {
+    "name": "Gotoh",
+    "gender": "Male",
+    "nenType": ["Manipulation"],
+    "affiliation": ["Zoldyck Family"],
+    "firstArc": "Zoldyck Family",
+    "picture": "pictures/gotoh.png"
+  },
+  {
+    "name": "Amane",
+    "gender": "Female",
+    "nenType": "none",
+    "affiliation": ["Zoldyck Family", "Butlers"],
+    "firstArc": "Election",
+    "picture": "pictures/amane.png"
+  },
+  {
+    "name": "Canary",
+    "gender": "Female",
+    "nenType": "none",
+    "affiliation": ["Zoldyck Family", "Butlers"],
+    "firstArc": "Zoldyck Family",
+    "picture": "pictures/canary.png"
+  },
+  {
+    "name": "Tsubone",
+    "gender": "Female",
+    "nenType": ["Enhancement"],
+    "affiliation": ["Zoldyck Family", "Butlers"],
+    "firstArc": "Election",
+    "picture": "pictures/tsubone.png"
+  },
+  {
+    "name": "Mike",
+    "gender": "Unknown",
+    "nenType": "none",
+    "affiliation": ["Zoldyck Family"],
+    "firstArc": "Zoldyck Family",
+    "picture": "pictures/mike.png"
+  },
+  {
+    "name": "Chrollo Lucilfer",
+    "gender": "Male",
+    "nenType": ["Specialization"],
+    "affiliation": ["Phantom Troupe", "Meteor City"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/chrollo lucilfer.png"
+  },
+  {
+    "name": "Zushi",
+    "gender": "Male",
+    "nenType": ["Enhancement"],
+    "affiliation": ["Heavens Arena"],
+    "firstArc": "Heavens Arena",
+    "picture": "pictures/zushi.png"
+  },
+  {
+    "name": "Nobunaga Hazama",
+    "gender": "Male",
+    "nenType": ["Enhancement"],
+    "affiliation": ["Phantom Troupe"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/nobunaga hazama.png"
+  },
+  {
+    "name": "Feitan Portor",
+    "gender": "Male",
+    "nenType": ["Transmutation"],
+    "affiliation": ["Phantom Troupe"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/feitan portor.png"
+  },
+  {
+    "name": "Machi Komacine",
+    "gender": "Female",
+    "nenType": ["Transmutation"],
+    "affiliation": ["Phantom Troupe"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/machi komacine.png"
+  },
+  {
+    "name": "Kalluto Zoldyck",
+    "gender": "Male",
+    "nenType": ["Manipulation"],
+    "affiliation": ["Zoldyck Family", "Phantom Troupe"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/kalluto zoldyck.png"
+  },
+  {
+    "name": "Phinks Magcub",
+    "gender": "Male",
+    "nenType": ["Enhancement"],
+    "affiliation": ["Phantom Troupe"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/phinks magcub.png"
+  },
+  {
+    "name": "Franklin Bordeau",
+    "gender": "Male",
+    "nenType": ["Emission"],
+    "affiliation": ["Phantom Troupe"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/franklin bordeau.png"
+  },
+  {
+    "name": "Shizuku Murasaki",
+    "gender": "Female",
+    "nenType": ["Conjuration"],
+    "affiliation": ["Phantom Troupe"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/shizuku murasaki.png"
+  },
+  {
+    "name": "Bonolenov Ndongo",
+    "gender": "Male",
+    "nenType": ["Conjuration"],
+    "affiliation": ["Phantom Troupe"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/bonolenov ndongo.png"
+  },
+  {
+    "name": "Shalnark",
+    "gender": "Male",
+    "nenType": ["Manipulation"],
+    "affiliation": ["Phantom Troupe"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/shalnark.png"
+  },
+  {
+    "name": "Pakunoda",
+    "gender": "Female",
+    "nenType": ["Specialization"],
+    "affiliation": ["Phantom Troupe"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/pakunoda.png"
+  },
+  {
+    "name": "Uvogin",
+    "gender": "Male",
+    "nenType": ["Enhancement"],
+    "affiliation": ["Phantom Troupe"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/uvogin.png"
+  },
+  {
+    "name": "Kortopi",
+    "gender": "Male",
+    "nenType": ["Conjuration"],
+    "affiliation": ["Phantom Troupe"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/kortopi.png"
+  },
+  {
+    "name": "Neon Nostrade",
+    "gender": "Female",
+    "nenType": ["Specialization"],
+    "affiliation": ["Nostrade Family"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/neon nostrade.png"
+  },
+  {
+    "name": "Light Nostrade",
+    "gender": "Male",
+    "nenType": "none",
+    "affiliation": ["Nostrade Family"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/light nostrade.png"
+  },
+  {
+    "name": "Porcupine",
+    "gender": "Male",
+    "nenType": ["Enhancement"],
+    "affiliation": ["Mafia", "Shadow Beasts"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/porcupine.png"
+  },
+  {
+    "name": "Leech",
+    "gender": "Male",
+    "nenType": ["Manipulation"],
+    "affiliation": ["Mafia", "Shadow Beasts"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/leech.png"
+  },
+  {
+    "name": "Worm",
+    "gender": "Male",
+    "nenType": ["Conjuration"],
+    "affiliation": ["Mafia", "Shadow Beasts"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/worm.png"
+  },
+  {
+    "name": "Rabid Dog",
+    "gender": "Male",
+    "nenType": ["Enhancement"],
+    "affiliation": ["Mafia", "Shadow Beasts"],
+    "firstArc": "Yorknew City",
+    "picture": "pictures/rabid dog.png"
+  },
+  {
+    "name": "Razor",
+    "gender": "Male",
+    "nenType": ["Emission"],
+    "affiliation": ["Players", "Game Masters"],
+    "firstArc": "Greed Island",
+    "picture": "pictures/razor.png"
+  },
+  {
+    "name": "Binolt",
+    "gender": "Male",
+    "nenType": "none",
+    "affiliation": ["Players"],
+    "firstArc": "Greed Island",
+    "picture": "pictures/binolt.png"
+  },
+  {
+    "name": "Genthru",
+    "gender": "Male",
+    "nenType": ["Emission"],
+    "affiliation": ["Players"],
+    "firstArc": "Greed Island",
+    "picture": "pictures/genthru.png"
+  },
+  {
+    "name": "Sub",
+    "gender": "Male",
+    "nenType": ["Manipulation"],
+    "affiliation": ["Players"],
+    "firstArc": "Greed Island",
+    "picture": "pictures/sub.png"
+  },
+  {
+    "name": "Bara",
+    "gender": "Male",
+    "nenType": ["Enhancement"],
+    "affiliation": ["Players"],
+    "firstArc": "Greed Island",
+    "picture": "pictures/bara.png"
+  },
+  {
+    "name": "Meruem",
+    "gender": "Male",
+    "nenType": ["Specialization"],
+    "affiliation": ["Chimera Ants", "Royal Guards"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/meruem.png"
+  },
+  {
+    "name": "Neferpitou",
+    "gender": "Unknown",
+    "nenType": ["Specialization"],
+    "affiliation": ["Chimera Ants", "Royal Guards"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/neferpitou.png"
+  },
+  {
+    "name": "Shaiapouf",
+    "gender": "Male",
+    "nenType": ["Manipulation"],
+    "affiliation": ["Chimera Ants", "Royal Guards"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/shaiapouf.png"
+  },
+  {
+    "name": "Menthuthuyoupi",
+    "gender": "Male",
+    "nenType": ["Enhancement"],
+    "affiliation": ["Chimera Ants", "Royal Guards"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/menthuthuyoupi.png"
+  },
+  {
+    "name": "Colt",
+    "gender": "Male",
+    "nenType": "none",
+    "affiliation": ["Chimera Ants"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/colt.png"
+  },
+  {
+    "name": "Meleoron",
+    "gender": "Male",
+    "nenType": ["Specialization"],
+    "affiliation": ["Chimera Ants"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/meleoron.png"
+  },
+  {
+    "name": "Welfin",
+    "gender": "Male",
+    "nenType": ["Manipulation"],
+    "affiliation": ["Chimera Ants"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/welfin.png"
+  },
+  {
+    "name": "Leol",
+    "gender": "Male",
+    "nenType": ["Emission"],
+    "affiliation": ["Chimera Ants"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/leol.png"
+  },
+  {
+    "name": "Cheetu",
+    "gender": "Male",
+    "nenType": ["Enhancement"],
+    "affiliation": ["Chimera Ants"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/cheetu.png"
+  },
+  {
+    "name": "Zazan",
+    "gender": "Female",
+    "nenType": ["Enhancement"],
+    "affiliation": ["Chimera Ants"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/zazan.png"
+  },
+  {
+    "name": "Ikalgo",
+    "gender": "Male",
+    "nenType": ["Manipulation"],
+    "affiliation": ["Chimera Ants"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/ikalgo.png"
+  },
+  {
+    "name": "Hina",
+    "gender": "Female",
+    "nenType": "Unknown",
+    "affiliation": ["Chimera Ants"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/hina.png"
+  },
+  {
+    "name": "Koala",
+    "gender": "Male",
+    "nenType": "Unknown",
+    "affiliation": ["Chimera Ants"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/koala.png"
+  },
+  {
+    "name": "Rammot",
+    "gender": "Male",
+    "nenType": ["Enhancement"],
+    "affiliation": ["Chimera Ants"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/rammot.png"
+  },
+  {
+    "name": "Flutter",
+    "gender": "Male",
+    "nenType": "Unknown",
+    "affiliation": ["Chimera Ants"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/flutter.png"
+  },
+  {
+    "name": "Komugi",
+    "gender": "Female",
+    "nenType": "none",
+    "affiliation": ["Kakin Kingdom"],
+    "firstArc": "Chimera Ant",
+    "picture": "pictures/komugi.png"
+  },
+  {
+    "name": "Tonpa",
+    "gender": "Male",
+    "nenType": "none",
+    "affiliation": ["Hunter Exam Candidates"],
+    "firstArc": "Hunter Exam",
+    "picture": "pictures/tonpa.png"
+  }
+]
