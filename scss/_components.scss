@@ -194,10 +194,15 @@ form {
 
 .reveal-card.success {
   border-color: $color-success;
-  background-color: rgba($color-success, 0.15);
+  background-color: rgba($color-success, 0.5);
 }
 
 .reveal-card.error {
   border-color: $color-error;
-  background-color: rgba($color-error, 0.15);
+  background-color: rgba($color-error, 0.5);
+}
+
+p#attempts{
+  font-weight: bold;
+  font-size: 18px;
 }

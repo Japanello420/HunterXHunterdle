@@ -19,7 +19,6 @@ export const getRandomCharacter = (characters) => {
   return characters[index];
 };
 
-// Zwraca listę jako przecinkowo oddzielony string (jeśli używasz gdzieś)
 export const formatList = (list) => {
   if (!Array.isArray(list)) return "";
   return list.join(", ");
